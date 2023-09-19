@@ -1,10 +1,29 @@
-body {
-    margin: 70px;
-    width: 100%;
+body{
+  max-width: 1200px; /* Adjust the maximum width as needed */
+  margin: 0px auto;  /* Center the element*/
 }
 
-paragraf1 {
-    margin: 70px;
-    width: 100%;
+.paragraf {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  max-width: 90%;
+}
 
+.h1, h2, h3, h4, h5, h6 {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}
+
+#author{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
 }
