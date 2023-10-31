@@ -14,15 +14,19 @@ body{
 .h1, h2, h3, h4, h5, h6{
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
-
   font-weight: bold;
   margin-bottom: 5px;
+}
+
+div.marg{
+  padding-left: 10px;
 }
 
 .img {
   width: 100%;
   height: auto;
 }
+
 
 #author{
     font-size: 12px;
@@ -35,6 +39,8 @@ nav {
     color: #fff; /* Text color */
     padding: 10px; /* Add some padding */
     width: 100%;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav ul {
@@ -52,12 +58,4 @@ nav a {
     text-decoration: none; 
     color: #000000; 
     font-weight: bold; 
-}
-
-nav a:hover{
-    color: #ff0000; 
-}
-
-nav a:active{
-    color: #ff0000; 
 }
